@@ -1,1 +1,8 @@
-Readme file for microbox.
+Microbox is a fork of Microwave (https://github.com/antimatter15/microwave) adapted to work with Wave in a Box server instead of Google Wave using the Data API and OAuth authentication. 
+It plays on Google App Engine and its server side is written in Java.
+It should be easy to configure it to work with your own Wave in a Box server.
+Edit src/com/wavylabs/microbox/options/options.properties file
+and replace waveDomain and port with your own wave in a box domain name and the port.
+Also edit war/js/constants.js and replace the values accordingly.
+The source code does not include jars needed to build the project, but you can get the in the 'Download' section bundled in zip.
+Have fun!
