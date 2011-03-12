@@ -1,5 +1,5 @@
 /**
- * Copyright 2011 Yuri Zelikov
+ * Copyright 2011 vega113@gmail.com
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,6 +14,7 @@
  * limitations under the License.
  *
  */
+
 package com.wavylabs.microbox.options;
 
 /**
