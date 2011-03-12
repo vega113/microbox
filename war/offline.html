@@ -1,0 +1,14 @@
+<div id="setupoauth" style='display:none'>
+	<div style='float:right'>Setup account</div>
+	<h1 style="font-size:18px">&mu;box</h1>
+	<p>
+		The <b>first step</b> is to acquire the login token. Go <a href='http://micro-wave.appspot.com/app/'>here</a>, log in and copy the code given to you on the final step. Once you're done with that, return to this application.
+	</p>
+	<p>
+		<b>Step two</b> is to enter the code into this application, once you have it, enter it below. (not case sensitive)
+		<input type='text' id='login_code_box'>
+		<button style='display:none' onclick="finish_setup()" id='login_button'>Get me to my inbox.</button>
+		<div style='display:none;padding:5px;background-color: orange' id='login_error'>Oops! The key is invalid. Check that you've typed it correctly, and if that doesn't worky, try getting a new token</div>
+
+	</p>
+</div>
