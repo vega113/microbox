@@ -45,7 +45,7 @@
 		     <div class="alert links" id="suggest">
 		       <a href="javascript:create_wave()" style='color: green'>New Wave</a> 
 		       <div style="float:right"> 
-		       	<a href="#search:with:public%20" onclick='ch(this)'>Public</a> /
+		       	<a href="#" onclick='doSearchShared(this)' id="searchShared">Shared</a> /
 		       	<a href="#search:%20" onclick='ch(this)'>All</a> / 
 		       	<a href="#search:in:inbox%20" onclick='ch(this)'>Inbox</a> 
 		       </div> 
@@ -109,7 +109,12 @@
 			</span>
 		</div>
 
-
+<script type="text/javascript">
+function doSearchShared(obj) {
+	obj.href = "#search:with:@" + constants.wave_domain + "%20";
+	ch(obj);
+}
+</script>
 
 
 <script type="text/javascript" src="js/lib/libopt.js"></script>

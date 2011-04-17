@@ -1,5 +1,5 @@
 /**
- * Copyright 2011
+ * Copyright 2011 vega113@gmail.com
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,5 +17,8 @@
 
 constants = {};
 constants.app_url='micro-box.appspot.com';
-constants.wiab_domain='example.com';
+// The WIAB server public url.
+constants.wiab_domain ='localhost';
 constants.wiab_port='9898';
+// The Wave domain of the WIAB server. Usually same as constants.wiab_domain.
+constants.wave_domain="local";

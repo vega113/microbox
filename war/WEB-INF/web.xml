@@ -22,7 +22,7 @@
   
   <!-- Default page to serve -->
   <welcome-file-list>
-    <welcome-file>dev.html</welcome-file>
+    <welcome-file>ui.html</welcome-file>
   </welcome-file-list>
 
 </web-app>

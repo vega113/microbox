@@ -148,6 +148,10 @@ function extend_search(startIndex, callback){
       item = digests[i];
       item.title = item.title.replace(/\</g, '&lt;').replace(/\>/g, '&gt;');
       item.snippet = item.snippet.replace(/\</g, '&lt;').replace(/\>/g, '&gt;');
+      item.snippet = item.snippet.split("\n")[0];
+      if (item.snippet.length > 140) {
+    	  item.snippet = item.snippet.substring(0,139) + "...";
+      }
       unread_blips[item.waveId] = item.unreadCount;
       
       if(opt.old_results){
