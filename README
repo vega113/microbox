@@ -7,3 +7,5 @@ Also edit war/js/constants.js and replace the values accordingly.
 Don't forget to edit appengine-web.xml and replace the app id with your own.
 The source code does not include jars needed to build the project, but you can get them in the 'Downloads' section bundled in zip.
 Have fun!
+
+Example: http://micro-box.appspot.com
